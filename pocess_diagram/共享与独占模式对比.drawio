@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="hnfEclHqnt2Ty1Wx41rC">
-    <mxGraphModel dx="1665" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,10 @@
         <mxCell id="s_h7NE4O6pJIe9wnOGZl-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="s_h7NE4O6pJIe9wnOGZl-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="535" y="620" />
+              <mxPoint x="401" y="620" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="s_h7NE4O6pJIe9wnOGZl-20" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
@@ -62,7 +66,7 @@
           <mxGeometry x="465" y="520" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="s_h7NE4O6pJIe9wnOGZl-23" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s_h7NE4O6pJIe9wnOGZl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="s_h7NE4O6pJIe9wnOGZl-3" target="s_h7NE4O6pJIe9wnOGZl-8" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -73,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s_h7NE4O6pJIe9wnOGZl-32" value="单线程访问" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="365" y="705" width="70" height="30" as="geometry" />
+          <mxGeometry x="365" y="685" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
