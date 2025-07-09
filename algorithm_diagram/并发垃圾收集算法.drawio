@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="第 1 页" id="wETZUreIFbDFI0Zndfog">
+    <mxGraphModel dx="1025" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cER_kDqalxqQV9gd2EiY-1" value="&lt;h3 style=&quot;font-weight: var(--ds-font-weight-strong); font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;三色标记法&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-2" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="90" width="410" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="cER_kDqalxqQV9gd2EiY-2" source="cER_kDqalxqQV9gd2EiY-4" target="cER_kDqalxqQV9gd2EiY-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="2.5" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-5" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;未扫描&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="7.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-6" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;扫描中&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="168.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-7" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;已扫描&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="342.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-8" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;待回收状态&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry y="95" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-9" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;中间状态&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="161" y="95" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-10" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;存活状态&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="335" y="95" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="cER_kDqalxqQV9gd2EiY-2" source="cER_kDqalxqQV9gd2EiY-12" target="cER_kDqalxqQV9gd2EiY-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-12" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="168.5" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="cER_kDqalxqQV9gd2EiY-2" vertex="1">
+          <mxGeometry x="342.5" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-14" value="&lt;h3 style=&quot;font-weight: var(--ds-font-weight-strong); font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;CMS工作流程&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-15" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;阶段详解：&lt;/div&gt;&lt;div&gt;1、初始标记：短暂STW，标记GC Roots直接关联对象&lt;/div&gt;&lt;div&gt;2、并发标记：与应用线程并行，深度遍历对象图&lt;/div&gt;&lt;div&gt;3、重新标记：STW修正并发期间变动的引用（通过写屏障记录）&lt;/div&gt;&lt;div&gt;4、并发清除：清理白色对象（可能产生浮动垃圾）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="530" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;标记过程：&lt;/div&gt;&lt;div&gt;1、初始所有对象为白色&lt;/div&gt;&lt;div&gt;2、从GC Roots出发，直接引用对象变灰&lt;/div&gt;&lt;div&gt;3、递归扫描灰色对象的引用，自身变黑，新引用变灰&lt;/div&gt;&lt;div&gt;4、最终白色对象即为垃圾&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="112.5" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-17" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="710" width="520" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-18" value="&lt;h3 style=&quot;font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;G1收集器区域化回收&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-19" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;Heap布局&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-20" value="" style="group" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1" connectable="0">
+          <mxGeometry y="60" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry x="170" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-24" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;Region&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;1~32MB&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry x="45" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-25" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;Region&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;1~32MB&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry x="220" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-26" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;Region&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;1~32MB&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-20" vertex="1">
+          <mxGeometry x="385" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="cER_kDqalxqQV9gd2EiY-17" source="cER_kDqalxqQV9gd2EiY-23" target="cER_kDqalxqQV9gd2EiY-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-28" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;并发标记后&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry x="260" y="160" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry y="220" width="520" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry x="170" y="220" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-32" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;存活率&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;10%&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry x="45" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-33" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;存活率&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;80%&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry x="215" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-34" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;存活率&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;30%&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry x="393.75" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-35" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;优先回收垃圾比例高的Region&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-17" vertex="1">
+          <mxGeometry y="190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-36" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;回收过程：&lt;/div&gt;&lt;div&gt;1、并发标记阶段计算Region存活对象比例&lt;/div&gt;&lt;div&gt;2、根据用户设定的最大停顿时间（如200ms）选择收益最高的Region回收&lt;/div&gt;&lt;div&gt;3、evacuation（复制算法）清理选中Region&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1010" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-37" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="60" y="330" width="700" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-38" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;应用线程&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-39" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;GC线程&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-40" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="34.75" as="sourcePoint" />
+            <mxPoint x="700" y="34.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-41" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;运行&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-42" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;direction=north;fillColor=#CCFFE6;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="85" y="70" width="50" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-43" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;初始标记(STW)&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="70" y="162" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-44" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;direction=north;fillColor=#CCCCFF;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="240" y="70" width="70" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-45" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;span style=&quot;font-family: var(--ds-font-family-code); white-space-collapse: collapse; background-color: transparent;&quot;&gt;&lt;b&gt;并发标记&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="232.5" y="162" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;direction=north;fillColor=#CCFFE6;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="400" y="70" width="50" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-47" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;重新标记(STW)&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="376.25" y="162" width="97.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-48" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;direction=north;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="560" y="70" width="70" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-49" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;并发清除&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="553.12" y="162" width="63.75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-50" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;10ms&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="75" y="91.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-51" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;长周期&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="232.5" y="91.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-52" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;50ms&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="390" y="91.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-53" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;长周期&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="cER_kDqalxqQV9gd2EiY-37" vertex="1">
+          <mxGeometry x="556.87" y="91.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-54" value="&lt;h3 style=&quot;font-weight: var(--ds-font-weight-strong); font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-weight: 600;&quot;&gt;ZGC的指针着色技术&lt;/span&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1260" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-56" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;对象指针&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1260" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="cER_kDqalxqQV9gd2EiY-59" target="cER_kDqalxqQV9gd2EiY-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1260" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-60" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;地址&lt;/b&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;4~63位&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-61" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;标记位&lt;/b&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important; color: rgb(73, 73, 73);&quot;&gt;&lt;b&gt;3位&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="1285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-62" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;保留位&lt;/b&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;1位&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-63" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;标记位用途:&lt;br/&gt;000 - 正常指针&lt;br/&gt;001 - 待标记（白色）&lt;br/&gt;010 - 已标记（灰色/黑色）&lt;br/&gt;100 - 重映射状态&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="462.5" y="1400" width="155" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cER_kDqalxqQV9gd2EiY-64" value="&lt;div&gt;并发原理：&lt;/div&gt;&lt;div&gt;通过指针元数据实现并发标记/转移&lt;/div&gt;&lt;div&gt;读屏障（Load Barrier）在访问对象时检查并修复指针状态&lt;/div&gt;&lt;div&gt;无需STW即可完成对象转移&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1380" width="325" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

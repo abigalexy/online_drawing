@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="第 1 页" id="_ki3ZWlQ-Rdp6A1HVp2W">
+    <mxGraphModel dx="1245" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="117.5" y="190" width="590" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="180" as="sourcePoint" />
+            <mxPoint x="30" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="30" y="60" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-2" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;堆内存&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="30" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="30" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-4" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;已分配对象&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="80" y="75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-5" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;空闲内存&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="370" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-8" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;指针位置&lt;/b&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-9" value="&lt;h3 style=&quot;font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;初始状态&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-13" vertex="1">
+          <mxGeometry x="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-25" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="131" y="460" width="565" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="180" as="sourcePoint" />
+            <mxPoint x="174" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="5" y="60" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-17" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;分配后&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="5" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="5" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-19" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;已分配对象&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="55" y="75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-20" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;空闲内存&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="385" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-21" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;新指针位置&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="145" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-22" value="&lt;h3 style=&quot;font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;分配对象A（假设需要3个单位）&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="175" y="60" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-24" value="&lt;b&gt;A&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-25" vertex="1">
+          <mxGeometry x="185" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-39" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="130" y="750" width="565" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="180" as="sourcePoint" />
+            <mxPoint x="255" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="5" y="60" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-29" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;分配后&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="5" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="5" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-31" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;已分配对象&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="55" y="75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-32" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;空闲内存&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="405" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-33" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;b&gt;新指针位置&lt;/b&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="225" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-34" value="&lt;h3 style=&quot;font-size: calc(var(--ds-md-zoom)*16px); line-height: 1.5; margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;分配对象B（需要2个单位）&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="175" y="60" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-36" value="&lt;b&gt;A&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="185" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="255" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko6Hw0c9hH8I0rkeJm2h-38" value="&lt;b&gt;B&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ko6Hw0c9hH8I0rkeJm2h-39" vertex="1">
+          <mxGeometry x="255" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
