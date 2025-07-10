@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="第 1 页" id="jHwuV38McsyykIc-WslX">
+    <mxGraphModel dx="1025" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-4" value="&lt;b&gt;乐观读版本号 (32位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="475" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-5" value="&lt;b&gt;悲观读锁计数 (16位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="475" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-6" value="&lt;b&gt;写锁标志 (1位)&amp;nbsp; &amp;nbsp; .....&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="475" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-7" value="&lt;div&gt;// 状态位分配（实际实现可能不同）&lt;/div&gt;&lt;div&gt;// 0-15位: 写锁状态&lt;/div&gt;&lt;div&gt;// 16-31位: 悲观读锁数量&lt;/div&gt;&lt;div&gt;// 32-63位: 乐观读版本号&lt;/div&gt;&lt;div&gt;private transient volatile long state;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-8" value="&lt;b&gt;63&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-9" value="&lt;b&gt;31&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-11" value="&lt;b&gt;15&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9JcmOUk9ZqPJ4UI0MAtg-13" value="&lt;b&gt;0&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
