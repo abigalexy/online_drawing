@@ -1,115 +1,115 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="UUu-Jj6y3bTfBlUtvKG2">
-    <mxGraphModel dx="1025" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1388" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-31" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-31" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="190" y="60" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-31">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-31" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-31">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-2" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-31" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-4" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: null&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-31">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-4" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: null&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-31" vertex="1">
           <mxGeometry y="100" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-5" value="&lt;b&gt;初始状态&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-31">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-5" value="&lt;b&gt;初始状态&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-31" vertex="1">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-32" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-32" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="190" y="250" width="480" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-32">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-32" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-18" value="&lt;div&gt;读锁计数: 1 (实际是高16位的值)&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: ThreadA&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-32">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-18" value="&lt;div&gt;读锁计数: 1 (实际是高16位的值)&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: ThreadA&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-32" vertex="1">
           <mxGeometry y="100" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-19" value="&lt;b&gt;线程A获取读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-32">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-19" value="&lt;b&gt;线程A获取读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-32" vertex="1">
           <mxGeometry width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-21" value="假设高16位从右向左计数" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-32">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-21" value="假设高16位从右向左计数" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-32" vertex="1">
           <mxGeometry x="340" y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-22" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0001 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-32">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-22" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0001 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-32" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-33" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-33" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="190" y="450" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-33">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-33" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-26" value="&lt;div&gt;读锁计数: 2&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: ThreadA, ThreadB (多个线程可同时持有读锁)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-33">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-26" value="&lt;div&gt;读锁计数: 2&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;&lt;div&gt;持有线程: ThreadA, ThreadB (多个线程可同时持有读锁)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-33" vertex="1">
           <mxGeometry y="100" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-27" value="&lt;b&gt;线程B获取读锁（可重入）&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-33">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-27" value="&lt;b&gt;线程B获取读锁（可重入）&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-33" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-29" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0010 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-33">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-29" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0010 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-33" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-39" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-39" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="190" y="650" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-39">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-35" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-39" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-36" value="因为有读锁被持有，线程C会被放入等待队列" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-39">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-36" value="因为有读锁被持有，线程C会被放入等待队列" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-39" vertex="1">
           <mxGeometry y="100" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-37" value="&lt;b&gt;线程C获取写锁（阻塞）&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-39">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-37" value="&lt;b&gt;线程C获取写锁（阻塞）&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-39" vertex="1">
           <mxGeometry width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-38" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0010 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-39">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-38" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0010 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-39" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-47" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="810" width="330" height="130" as="geometry" />
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-47" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190" y="800" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-47">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-47" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-43" value="&lt;div&gt;读锁计数: 1&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-47">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-43" value="&lt;div&gt;读锁计数: 1&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-47" vertex="1">
           <mxGeometry y="100" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-45" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0001 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-47">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-45" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0001 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-47" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-46" value="&lt;b&gt;线程A释放一个读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-47">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-46" value="&lt;b&gt;线程A释放一个读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-47" vertex="1">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-53" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="980" width="330" height="130" as="geometry" />
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-53" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190" y="970" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-53">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-49" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-53" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-50" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-53">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-50" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0000&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-53" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-51" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-53">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-51" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 0&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-53" vertex="1">
           <mxGeometry y="100" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-52" value="&lt;b&gt;线程A释放所有读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-53">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-52" value="&lt;b&gt;线程A释放所有读锁&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-53" vertex="1">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-59" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="1160" width="330" height="150" as="geometry" />
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-59" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="190" y="1140" width="330" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-55" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-59">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-55" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="uwLhFG13DG_OA8l8_4Pm-59" vertex="1">
           <mxGeometry y="40" width="330" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-56" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 1&lt;/div&gt;&lt;div&gt;持有线程: ThreadC&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-59">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-56" value="&lt;div&gt;读锁计数: 0&lt;/div&gt;&lt;div&gt;写锁计数: 1&lt;/div&gt;&lt;div&gt;持有线程: ThreadC&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-59" vertex="1">
           <mxGeometry y="100" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-57" value="&lt;b&gt;线程C获取写锁成功&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-59">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-57" value="&lt;b&gt;线程C获取写锁成功&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-59" vertex="1">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uwLhFG13DG_OA8l8_4Pm-58" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0001&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="uwLhFG13DG_OA8l8_4Pm-59">
+        <mxCell id="uwLhFG13DG_OA8l8_4Pm-58" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.85); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;state: 0000 0000 0000 0000 0000 0000 0000 0001&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="uwLhFG13DG_OA8l8_4Pm-59" vertex="1">
           <mxGeometry x="7.5" y="50" width="315" height="30" as="geometry" />
         </mxCell>
       </root>
