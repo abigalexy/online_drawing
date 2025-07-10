@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="第 1 页" id="XKo7Vm5wPieYBE7Sqscl">
+    <mxGraphModel dx="854" dy="373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-38" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="153" y="310" width="520" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-28" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="190" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-1" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-28">
+          <mxGeometry width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-2" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;无锁状态 (state=0)&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-28">
+          <mxGeometry x="10" y="15" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-29" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="185" y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-6" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#FFFFCC;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-29">
+          <mxGeometry width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-10" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;乐观读模式&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt; stamp有效时可用&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-29">
+          <mxGeometry x="17.5" y="10" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-30" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="190" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-9" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#FFE6CC;shadow=1;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-30">
+          <mxGeometry width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-11" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;写锁等待队列&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-30">
+          <mxGeometry x="25" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-31" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-17" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#FFE6CC;shadow=1;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-31">
+          <mxGeometry width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-19" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;写锁已获取&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;(独占)&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-31">
+          <mxGeometry x="30" y="5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-32" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="190" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-15" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-32">
+          <mxGeometry width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-16" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;读锁已获取&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;(共享)&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-32">
+          <mxGeometry x="30" y="5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-33" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="370" y="380" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-18" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-33">
+          <mxGeometry width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-21" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;乐观读升级为读锁&lt;/pre&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;(当检测到写冲突)&lt;/pre&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-33">
+          <mxGeometry x="15" y="5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-34" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="60" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-25" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;writeLock()&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-34">
+          <mxGeometry width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-35" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="360" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-26" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;readLock()&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-35">
+          <mxGeometry width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-36" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="260" y="210" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-13" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;validate()失败&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-36">
+          <mxGeometry width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-37" value="" style="group" vertex="1" connectable="0" parent="Cn43SiliyMjuUhOEjTE5-38">
+          <mxGeometry x="260" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-8" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: start; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;tryOptimisticRead()&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Cn43SiliyMjuUhOEjTE5-37">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Cn43SiliyMjuUhOEjTE5-38" source="Cn43SiliyMjuUhOEjTE5-1" target="Cn43SiliyMjuUhOEjTE5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Cn43SiliyMjuUhOEjTE5-38" source="Cn43SiliyMjuUhOEjTE5-6" target="Cn43SiliyMjuUhOEjTE5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Cn43SiliyMjuUhOEjTE5-38" source="Cn43SiliyMjuUhOEjTE5-9" target="Cn43SiliyMjuUhOEjTE5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Cn43SiliyMjuUhOEjTE5-38" source="Cn43SiliyMjuUhOEjTE5-9" target="Cn43SiliyMjuUhOEjTE5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cn43SiliyMjuUhOEjTE5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Cn43SiliyMjuUhOEjTE5-38" source="Cn43SiliyMjuUhOEjTE5-9" target="Cn43SiliyMjuUhOEjTE5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
