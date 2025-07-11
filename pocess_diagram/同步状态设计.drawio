@@ -1,26 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="27.2.0">
-  <diagram name="第 1 页" id="RdpMkjnUjISKkWqfYwgr">
+  <diagram name="第 1 页" id="GeejV2Wf30Hb7JtBxy3E">
     <mxGraphModel dx="1025" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-5" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="230" y="380" width="360" height="60" as="geometry" />
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="189" y="400" width="450" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9RxsGx5iGSG62uhtiDJO-5">
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-1" value="" style="group" vertex="1" connectable="0" parent="5l1FnqlzCVnCg8wmBYe6-7">
+          <mxGeometry width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5l1FnqlzCVnCg8wmBYe6-1">
           <mxGeometry width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9RxsGx5iGSG62uhtiDJO-5">
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5l1FnqlzCVnCg8wmBYe6-1">
           <mxGeometry x="180" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-3" value="&lt;b&gt;读锁状态(16位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9RxsGx5iGSG62uhtiDJO-5">
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-4" value="&lt;b&gt;读锁状态(16位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5l1FnqlzCVnCg8wmBYe6-1">
           <mxGeometry x="45" y="15" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-4" value="&lt;b&gt;写锁状态(16位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9RxsGx5iGSG62uhtiDJO-5">
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-5" value="&lt;b&gt;写锁状态(16位)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5l1FnqlzCVnCg8wmBYe6-1">
           <mxGeometry x="225" y="15" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9RxsGx5iGSG62uhtiDJO-7" value="&lt;div&gt;&lt;b&gt;写锁状态：低16位，表示写锁的重入次数&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;读锁状态：高16位，表示持有读锁的线程数量（实际是&quot;读锁计数&quot;的累计值）&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="450" width="450" height="40" as="geometry" />
+        <mxCell id="5l1FnqlzCVnCg8wmBYe6-6" value="&lt;div&gt;写锁状态：低16位，表示写锁的重入次数&lt;/div&gt;&lt;div&gt;读锁状态：高16位，表示持有读锁的线程数量（实际是&quot;读锁计数&quot;的累计值）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5l1FnqlzCVnCg8wmBYe6-7">
+          <mxGeometry y="70" width="450" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
