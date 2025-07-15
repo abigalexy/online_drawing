@@ -1,0 +1,448 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.4">
+  <diagram name="第 1 页" id="3Pb_nDAk9xN5-lKyiySB">
+    <mxGraphModel dx="1079" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401.6700000000001" y="300" as="sourcePoint" />
+            <mxPoint x="401.6700000000001" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60.002857142857124" y="130" width="198.6381818181818" height="204.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-56" source="LyFxQFtxwqaDCMOSWHlq-39" target="LyFxQFtxwqaDCMOSWHlq-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-30" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-56" source="LyFxQFtxwqaDCMOSWHlq-42" target="LyFxQFtxwqaDCMOSWHlq-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-36" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-56">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-39" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-56">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-42" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-56">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-64" value="&lt;b&gt;设x为被删除节点的替换节点或NIL，w为x的兄弟节点&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="44.32" y="50" width="290" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-65" value="&lt;b&gt;情况1：x是红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="95.68" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="130" width="198.6381818181818" height="204.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-66" source="LyFxQFtxwqaDCMOSWHlq-70" target="LyFxQFtxwqaDCMOSWHlq-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-68" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-66" source="LyFxQFtxwqaDCMOSWHlq-71" target="LyFxQFtxwqaDCMOSWHlq-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-69" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-66">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-70" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-66">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-71" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-66">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-77" value="直接将x染黑（因为删除红色节点不影响黑高）" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-79" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="200" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-80" value="&lt;b&gt;情况2.1：x黑色，兄弟w红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="430" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-91" source="LyFxQFtxwqaDCMOSWHlq-85" target="LyFxQFtxwqaDCMOSWHlq-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-83" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-91" source="LyFxQFtxwqaDCMOSWHlq-86" target="LyFxQFtxwqaDCMOSWHlq-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-84" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-91">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-85" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-91">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-86" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-91">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-87" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-91">
+          <mxGeometry x="69" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-88" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-91">
+          <mxGeometry x="198.64" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.336;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-91" source="LyFxQFtxwqaDCMOSWHlq-87" target="LyFxQFtxwqaDCMOSWHlq-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="286.82000000000005" as="sourcePoint" />
+            <mxPoint x="154" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-90" value="" style="endArrow=none;html=1;rounded=0;entryX=0.682;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.455;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-91" source="LyFxQFtxwqaDCMOSWHlq-88" target="LyFxQFtxwqaDCMOSWHlq-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="285.82000000000005" as="sourcePoint" />
+            <mxPoint x="180" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-110" value="&lt;div&gt;将w变黑，w父节p染红&lt;/div&gt;&lt;div&gt;对p左旋（x是左孩子）或右旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="298.64" y="542.4100000000001" width="241.36" height="32.59" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-112" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="410" width="259.27818181818174" height="364.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-96" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-112">
+          <mxGeometry y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-100" value="" style="endArrow=none;html=1;rounded=0;entryX=0.295;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.538;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-112" source="LyFxQFtxwqaDCMOSWHlq-96" target="LyFxQFtxwqaDCMOSWHlq-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35.52054545454547" y="297.203" as="sourcePoint" />
+            <mxPoint x="83.09890909090899" y="209.81736363636355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.732;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-112" source="LyFxQFtxwqaDCMOSWHlq-105" target="LyFxQFtxwqaDCMOSWHlq-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164.5622727272725" y="296.6803636363636" as="sourcePoint" />
+            <mxPoint x="114.45599999999985" y="209.81327272727276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-103" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.64;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-112" source="LyFxQFtxwqaDCMOSWHlq-106">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="107.09999999999997" y="145" as="sourcePoint" />
+            <mxPoint x="151.09999999999997" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-105" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-112">
+          <mxGeometry x="134.45999999999998" y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-106" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-112">
+          <mxGeometry x="64.81999999999988" y="145" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-107" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-112">
+          <mxGeometry x="129.63999999999993" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-108" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-112">
+          <mxGeometry x="194.45999999999998" y="145" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-109" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.414;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-112" source="LyFxQFtxwqaDCMOSWHlq-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220.1254545454546" y="144.3395454545455" as="sourcePoint" />
+            <mxPoint x="174.45999999999998" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-113" value="&lt;b&gt;情况2.2：x&lt;/b&gt;&lt;b&gt;黑色，&lt;/b&gt;&lt;b&gt;兄弟w黑色，w两个子节点黑色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="830" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-114" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="880" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-115" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-114" source="LyFxQFtxwqaDCMOSWHlq-118" target="LyFxQFtxwqaDCMOSWHlq-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-116" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-114" source="LyFxQFtxwqaDCMOSWHlq-119" target="LyFxQFtxwqaDCMOSWHlq-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-117" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-114">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-118" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-114">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-119" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-114">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-120" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-114">
+          <mxGeometry x="69" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-121" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-114">
+          <mxGeometry x="198.64" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-122" value="" style="endArrow=none;html=1;rounded=0;entryX=0.336;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-114" source="LyFxQFtxwqaDCMOSWHlq-120" target="LyFxQFtxwqaDCMOSWHlq-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="286.82000000000005" as="sourcePoint" />
+            <mxPoint x="154" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-123" value="" style="endArrow=none;html=1;rounded=0;entryX=0.682;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.455;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-114" source="LyFxQFtxwqaDCMOSWHlq-121" target="LyFxQFtxwqaDCMOSWHlq-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="285.82000000000005" as="sourcePoint" />
+            <mxPoint x="180" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-124" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="880" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-125" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-124" source="LyFxQFtxwqaDCMOSWHlq-128" target="LyFxQFtxwqaDCMOSWHlq-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-126" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-124" source="LyFxQFtxwqaDCMOSWHlq-129" target="LyFxQFtxwqaDCMOSWHlq-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-127" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-124">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-128" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-124">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-129" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-124">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-130" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-124">
+          <mxGeometry x="69" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-131" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-124">
+          <mxGeometry x="198.64" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-132" value="" style="endArrow=none;html=1;rounded=0;entryX=0.336;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-124" source="LyFxQFtxwqaDCMOSWHlq-130" target="LyFxQFtxwqaDCMOSWHlq-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="286.82000000000005" as="sourcePoint" />
+            <mxPoint x="154" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-133" value="" style="endArrow=none;html=1;rounded=0;entryX=0.682;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.455;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-124" source="LyFxQFtxwqaDCMOSWHlq-131" target="LyFxQFtxwqaDCMOSWHlq-129">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="285.82000000000005" as="sourcePoint" />
+            <mxPoint x="180" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-134" value="&lt;div&gt;将w变红&lt;/div&gt;&lt;div&gt;递归处理父节点p（将p作为新的x）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308.32" y="970" width="196" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-136" value="&lt;b&gt;情况2.3：x黑色，兄弟w黑色，w近端子节点红色，远端子节点黑色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="44.32" y="1300" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-137" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="30" y="1340" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-138" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-137" source="LyFxQFtxwqaDCMOSWHlq-141" target="LyFxQFtxwqaDCMOSWHlq-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-139" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-137" source="LyFxQFtxwqaDCMOSWHlq-142" target="LyFxQFtxwqaDCMOSWHlq-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-140" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-137">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-141" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-137">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-142" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-137">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-143" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-137">
+          <mxGeometry x="69" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-144" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-137">
+          <mxGeometry x="198.64" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-145" value="" style="endArrow=none;html=1;rounded=0;entryX=0.336;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-137" source="LyFxQFtxwqaDCMOSWHlq-143" target="LyFxQFtxwqaDCMOSWHlq-142">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="286.82000000000005" as="sourcePoint" />
+            <mxPoint x="154" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-146" value="" style="endArrow=none;html=1;rounded=0;entryX=0.682;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.455;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-137" source="LyFxQFtxwqaDCMOSWHlq-144" target="LyFxQFtxwqaDCMOSWHlq-142">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="285.82000000000005" as="sourcePoint" />
+            <mxPoint x="180" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-161" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="1320" width="340.49818181818176" height="504.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-148" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-161" source="LyFxQFtxwqaDCMOSWHlq-151" target="LyFxQFtxwqaDCMOSWHlq-150">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-149" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-161" source="LyFxQFtxwqaDCMOSWHlq-152" target="LyFxQFtxwqaDCMOSWHlq-150">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.81999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-150" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-161">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-151" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-161">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-152" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;Y&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-161">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-154" value="W" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-161">
+          <mxGeometry x="210.86000000000007" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-157" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-161">
+          <mxGeometry x="275.68" y="440" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-159" value="" style="endArrow=none;html=1;rounded=0;entryX=0.74;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.331;exitY=0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-161" source="LyFxQFtxwqaDCMOSWHlq-154" target="LyFxQFtxwqaDCMOSWHlq-152">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230.32" y="285.81999999999994" as="sourcePoint" />
+            <mxPoint x="184.32" y="204.81999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-160" value="" style="endArrow=none;html=1;rounded=0;entryX=0.689;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.368;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-161" source="LyFxQFtxwqaDCMOSWHlq-157" target="LyFxQFtxwqaDCMOSWHlq-154">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="301.68" y="435.81999999999994" as="sourcePoint" />
+            <mxPoint x="255.68" y="354.81999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-162" value="&lt;div&gt;将w近端子节点变黑，w变红&lt;/div&gt;&lt;div&gt;对w右旋（x是左孩子）或左旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1370" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-163" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="582.41" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-164" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="313.46" y="1010" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-165" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1410" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-166" value="&lt;b&gt;情况2.4：x黑色，w黑色，w远端子节点红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1880" width="236.54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-167" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="53.269999999999996" y="1930" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-168" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-167" source="LyFxQFtxwqaDCMOSWHlq-171" target="LyFxQFtxwqaDCMOSWHlq-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9.81714285714287" y="150" as="sourcePoint" />
+            <mxPoint x="77.49714285714288" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-169" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.397;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-167" source="LyFxQFtxwqaDCMOSWHlq-172" target="LyFxQFtxwqaDCMOSWHlq-170">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="184.81714285714287" y="157.81999999999994" as="sourcePoint" />
+            <mxPoint x="114.81714285714287" y="64.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-170" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-167">
+          <mxGeometry x="64.82" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-171" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-167">
+          <mxGeometry y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-172" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-167">
+          <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-173" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-167">
+          <mxGeometry x="69" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-174" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-167">
+          <mxGeometry x="198.64" y="290" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-175" value="" style="endArrow=none;html=1;rounded=0;entryX=0.336;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.602;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-167" source="LyFxQFtxwqaDCMOSWHlq-173" target="LyFxQFtxwqaDCMOSWHlq-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="286.82000000000005" as="sourcePoint" />
+            <mxPoint x="154" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-176" value="" style="endArrow=none;html=1;rounded=0;entryX=0.682;entryY=0.972;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.455;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-167" source="LyFxQFtxwqaDCMOSWHlq-174" target="LyFxQFtxwqaDCMOSWHlq-172">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="285.82000000000005" as="sourcePoint" />
+            <mxPoint x="180" y="204.82000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-193" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="1920" width="259.27818181818174" height="364.81818181818176" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-194" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-193">
+          <mxGeometry y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-195" value="" style="endArrow=none;html=1;rounded=0;entryX=0.295;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.538;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-193" source="LyFxQFtxwqaDCMOSWHlq-194" target="LyFxQFtxwqaDCMOSWHlq-199">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35.52054545454547" y="297.203" as="sourcePoint" />
+            <mxPoint x="83.09890909090899" y="209.81736363636355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-196" value="" style="endArrow=none;html=1;rounded=0;entryX=0.732;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-193" source="LyFxQFtxwqaDCMOSWHlq-198" target="LyFxQFtxwqaDCMOSWHlq-199">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="164.5622727272725" y="296.6803636363636" as="sourcePoint" />
+            <mxPoint x="114.45599999999985" y="209.81327272727276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-197" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.64;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-193" source="LyFxQFtxwqaDCMOSWHlq-199">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="107.09999999999997" y="145" as="sourcePoint" />
+            <mxPoint x="151.09999999999997" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-198" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-193">
+          <mxGeometry x="134.45999999999998" y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-199" value="P" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-193">
+          <mxGeometry x="64.81999999999988" y="145" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-200" value="&lt;pre style=&quot;font-family: var(--ds-font-family-code); overflow: auto; padding: calc(var(--ds-md-zoom)*8px)calc(var(--ds-md-zoom)*12px); text-wrap: wrap; word-break: break-all; color: rgb(73, 73, 73); font-size: 12.573px; text-align: left; margin-top: 0px !important; margin-bottom: 0px !important;&quot;&gt;w&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-193">
+          <mxGeometry x="129.63999999999993" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-201" value="Z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" vertex="1" parent="LyFxQFtxwqaDCMOSWHlq-193">
+          <mxGeometry x="194.45999999999998" y="145" width="64.81818181818181" height="64.81818181818181" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-202" value="" style="endArrow=none;html=1;rounded=0;entryX=0.757;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.414;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="LyFxQFtxwqaDCMOSWHlq-193" source="LyFxQFtxwqaDCMOSWHlq-201">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220.1254545454546" y="144.3395454545455" as="sourcePoint" />
+            <mxPoint x="174.45999999999998" y="63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-203" value="&lt;div&gt;将w颜色设为父节点P的颜色&lt;/div&gt;&lt;div&gt;P和w的远端子节点变黑&lt;/div&gt;&lt;div&gt;对p左旋（x是左孩子）或右旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1970" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LyFxQFtxwqaDCMOSWHlq-204" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="293.46" y="2020" width="170" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
