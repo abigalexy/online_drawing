@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.4">
   <diagram name="第 1 页" id="3Pb_nDAk9xN5-lKyiySB">
-    <mxGraphModel dx="1448" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1189" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,7 +347,7 @@
           <mxGeometry x="313.46" y="970" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-165" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="258.46" y="1410" width="170" height="20" as="geometry" />
+          <mxGeometry x="258.46" y="1420" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-166" value="&lt;b&gt;情况2.4：x黑色，兄弟w黑色，w远端子节点红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="1880" width="270" height="30" as="geometry" />
