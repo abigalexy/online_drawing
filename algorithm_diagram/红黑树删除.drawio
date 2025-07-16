@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-56" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="60.002857142857124" y="130" width="198.6381818181818" height="204.81818181818176" as="geometry" />
+          <mxGeometry x="100.00285714285712" y="110" width="198.6381818181818" height="204.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-56" source="LyFxQFtxwqaDCMOSWHlq-39" target="LyFxQFtxwqaDCMOSWHlq-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -35,13 +35,13 @@
           <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-64" value="&lt;b&gt;设x为被删除节点的替换节点或NIL，w为x的兄弟节点&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="44.32" y="50" width="290" height="20" as="geometry" />
+          <mxGeometry x="40" y="40" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-65" value="&lt;b&gt;情况1：x是红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="90" width="95.68" height="20" as="geometry" />
+          <mxGeometry x="40" y="80" width="95.68" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-66" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="390" y="130" width="198.6381818181818" height="204.81818181818176" as="geometry" />
+          <mxGeometry x="500" y="110" width="198.6381818181818" height="204.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-66" source="LyFxQFtxwqaDCMOSWHlq-70" target="LyFxQFtxwqaDCMOSWHlq-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -65,16 +65,16 @@
           <mxGeometry x="133.82" y="140" width="64.81818181818181" height="64.81818181818181" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-77" value="直接将x染黑（因为删除红色节点不影响黑高）" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="250" y="170" width="140" height="30" as="geometry" />
+          <mxGeometry x="340" y="160" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-79" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="244" y="200" width="170" height="20" as="geometry" />
+          <mxGeometry x="325" y="190" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-80" value="&lt;b&gt;情况2.1：x黑色，兄弟w红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="60" y="380" width="160" height="20" as="geometry" />
+          <mxGeometry x="40" y="370" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-91" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="50" y="430" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+          <mxGeometry x="70" y="407" width="263.4581818181818" height="354.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-91" source="LyFxQFtxwqaDCMOSWHlq-85" target="LyFxQFtxwqaDCMOSWHlq-84" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -116,10 +116,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-110" value="&lt;div&gt;将w变黑，w父节p染红&lt;/div&gt;&lt;div&gt;对p左旋（x是左孩子）或右旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="298.64" y="542.4100000000001" width="241.36" height="32.59" as="geometry" />
+          <mxGeometry x="289.32" y="467.41000000000014" width="241.36" height="32.59" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-112" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="500" y="410" width="259.27818181818174" height="364.81818181818176" as="geometry" />
+          <mxGeometry x="502.09" y="400" width="259.27818181818174" height="364.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-96" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" parent="LyFxQFtxwqaDCMOSWHlq-112" vertex="1">
           <mxGeometry y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
@@ -161,10 +161,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-113" value="&lt;b&gt;情况2.2：x&lt;/b&gt;&lt;b&gt;黑色，&lt;/b&gt;&lt;b&gt;兄弟w黑色，w两个子节点黑色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="830" width="270" height="20" as="geometry" />
+          <mxGeometry x="38.32" y="830" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-114" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="60" y="880" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+          <mxGeometry x="70" y="870" width="263.4581818181818" height="354.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-115" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-114" source="LyFxQFtxwqaDCMOSWHlq-118" target="LyFxQFtxwqaDCMOSWHlq-117" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -248,13 +248,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-134" value="&lt;div&gt;将w变红&lt;/div&gt;&lt;div&gt;递归处理父节点p（将p作为新的x）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="308.32" y="970" width="196" height="40" as="geometry" />
+          <mxGeometry x="300.46" y="930" width="196" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-136" value="&lt;b&gt;情况2.3：x黑色，兄弟w黑色，w近端子节点红色，远端子节点黑色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="44.32" y="1300" width="360" height="20" as="geometry" />
+          <mxGeometry x="40" y="1290" width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-137" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="30" y="1340" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+          <mxGeometry x="40" y="1330" width="263.4581818181818" height="354.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-138" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-137" source="LyFxQFtxwqaDCMOSWHlq-141" target="LyFxQFtxwqaDCMOSWHlq-140" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -338,22 +338,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-162" value="&lt;div&gt;将w近端子节点变黑，w变红&lt;/div&gt;&lt;div&gt;对w右旋（x是左孩子）或左旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="1370" width="240" height="40" as="geometry" />
+          <mxGeometry x="223.46" y="1380" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-163" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="582.41" width="170" height="20" as="geometry" />
+          <mxGeometry x="325" y="500" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-164" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="313.46" y="1010" width="170" height="20" as="geometry" />
+          <mxGeometry x="313.46" y="970" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-165" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="270" y="1410" width="170" height="20" as="geometry" />
+          <mxGeometry x="258.46" y="1410" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-166" value="&lt;b&gt;情况2.4：x黑色，兄弟w黑色，w远端子节点红色&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1880" width="270" height="30" as="geometry" />
+          <mxGeometry x="40" y="1880" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-167" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="53.269999999999996" y="1930" width="263.4581818181818" height="354.81818181818176" as="geometry" />
+          <mxGeometry x="80" y="1920" width="263.4581818181818" height="354.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-168" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=0.904;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LyFxQFtxwqaDCMOSWHlq-167" source="LyFxQFtxwqaDCMOSWHlq-171" target="LyFxQFtxwqaDCMOSWHlq-170" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -395,7 +395,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-193" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="440" y="1920" width="259.27818181818174" height="364.81818181818176" as="geometry" />
+          <mxGeometry x="480" y="1920" width="259.27818181818174" height="364.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-194" value="X" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B3B3B3;shadow=0;" parent="LyFxQFtxwqaDCMOSWHlq-193" vertex="1">
           <mxGeometry y="300" width="64.81818181818181" height="64.81818181818181" as="geometry" />
@@ -437,10 +437,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-203" value="&lt;div&gt;将w颜色设为父节点P的颜色&lt;/div&gt;&lt;div&gt;P和w的远端子节点变黑&lt;/div&gt;&lt;div&gt;对p左旋（x是左孩子）或右旋（x是右孩子）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="270" y="1970" width="240" height="50" as="geometry" />
+          <mxGeometry x="308.32" y="1970" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LyFxQFtxwqaDCMOSWHlq-204" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="293.46" y="2020" width="170" height="20" as="geometry" />
+          <mxGeometry x="343.32" y="2020" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
