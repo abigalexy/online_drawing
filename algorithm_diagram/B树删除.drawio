@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="fIbPTTzMzk3BGhx-KFtS">
-    <mxGraphModel dx="1206" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-31" value="&lt;div&gt;&lt;b&gt;情况1：删除叶子节点的关键字后仍满足最小关键字数要求&lt;/b&gt;&lt;/div&gt;&lt;div&gt;操作：直接删除关键字，无需其他操作&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="80" width="320" height="40" as="geometry" />
+          <mxGeometry x="93" y="80" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-32" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="490" y="140" width="206.6633333333334" height="190" as="geometry" />
@@ -86,19 +86,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-44" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="210" width="110" height="20" as="geometry" />
+          <mxGeometry x="370" y="225" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-45" value="&lt;b&gt;删除8&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="405" y="190" width="40" height="20" as="geometry" />
+          <mxGeometry x="405" y="205" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-46" value="&lt;div&gt;&lt;b&gt;情况2：删除后关键字数不足，但相邻兄弟节点有富余&lt;/b&gt;&lt;/div&gt;&lt;div&gt;操作：从兄弟节点借一个关键字（通过父节点周转）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="400" width="290" height="40" as="geometry" />
+          <mxGeometry x="93" y="420" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-47" value="&lt;div&gt;子情况2a：左兄弟有富余&lt;/div&gt;&lt;div&gt;1、将父节点中分隔的关键字下移到当前节点&lt;/div&gt;&lt;div&gt;2、将左兄弟的最大关键字上移到父节点&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="680" width="250" height="50" as="geometry" />
+          <mxGeometry x="110" y="670" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-61" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="470" width="228.33333333333337" height="190.00333333333333" as="geometry" />
+          <mxGeometry x="110" y="470" width="228.33333333333337" height="190.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-49" value="" style="group" parent="8vCnK32GKlkzvUL6mrDK-61" vertex="1" connectable="0">
           <mxGeometry x="81.67000000000002" width="70" height="63.33333333333334" as="geometry" />
@@ -146,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-62" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="520" y="470" width="228.33333333333337" height="190.00333333333333" as="geometry" />
+          <mxGeometry x="490" y="480" width="228.33333333333337" height="190.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-63" value="" style="group" parent="8vCnK32GKlkzvUL6mrDK-62" vertex="1" connectable="0">
           <mxGeometry x="81.67000000000002" width="70" height="63.33333333333334" as="geometry" />
@@ -194,13 +194,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-75" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="374.81" y="575" width="110" height="20" as="geometry" />
+          <mxGeometry x="374.81" y="555" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-76" value="&lt;b&gt;删除15&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="555" width="50" height="20" as="geometry" />
+          <mxGeometry x="400" y="535" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-77" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="80" y="810" width="228.33333333333337" height="190.00333333333333" as="geometry" />
+          <mxGeometry x="110" y="810" width="228.33333333333337" height="190.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-78" value="" style="group" parent="8vCnK32GKlkzvUL6mrDK-77" vertex="1" connectable="0">
           <mxGeometry x="81.67000000000002" width="70" height="63.33333333333334" as="geometry" />
@@ -248,16 +248,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-90" value="&lt;div&gt;子情况2b：右兄弟有富余&lt;/div&gt;&lt;div&gt;1、将父节点中分隔的关键字下移到当前节点&lt;/div&gt;&lt;div&gt;2、将右兄弟的最小关键字上移到父节点&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="86.66" y="1010" width="250" height="50" as="geometry" />
+          <mxGeometry x="108.33" y="1010" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-91" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="374.81" y="940" width="110" height="20" as="geometry" />
+          <mxGeometry x="374.81" y="890" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-92" value="&lt;b&gt;删除15&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="920" width="50" height="20" as="geometry" />
+          <mxGeometry x="400" y="870" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-93" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="510" y="810" width="228.33333333333337" height="190.00333333333333" as="geometry" />
+          <mxGeometry x="490" y="810" width="228.33333333333337" height="190.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-94" value="" style="group" parent="8vCnK32GKlkzvUL6mrDK-93" vertex="1" connectable="0">
           <mxGeometry x="81.67000000000002" width="70" height="63.33333333333334" as="geometry" />
@@ -305,13 +305,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-106" value="&lt;div&gt;&lt;b&gt;情况3：删除后关键字数不足，且相邻兄弟节点也无富余&lt;/b&gt;&lt;/div&gt;&lt;div&gt;操作：将当前节点与一个兄弟节点及父节点的分隔关键字合并&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1240" width="330" height="40" as="geometry" />
+          <mxGeometry x="93" y="1260" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8vCnK32GKlkzvUL6mrDK-107" value="&lt;div&gt;子情况3a：与左兄弟合并&lt;/div&gt;&lt;div&gt;1、将父节点分隔关键字下移到左兄弟&lt;/div&gt;&lt;div&gt;2、将当前节点内容合并到左兄弟&lt;/div&gt;&lt;div&gt;3、删除当前节点&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="1560" width="211.67" height="70" as="geometry" />
+          <mxGeometry x="110" y="1560" width="211.67" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="1300" width="305.8181818181818" height="233.8181818181818" as="geometry" />
+          <mxGeometry x="93" y="1310" width="305.8181818181818" height="233.8181818181818" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-2" value="10,20,30" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E6FFCC;" vertex="1" parent="PFpXIr5WL7vh2AT7sFhG-1">
           <mxGeometry x="117.41000000000003" width="64.81818181818181" height="64.81818181818181" as="geometry" />
@@ -353,13 +353,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="374.81" y="1430" width="110" height="20" as="geometry" />
+          <mxGeometry x="374.81" y="1390" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-25" value="&lt;b&gt;删除15&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="404.81" y="1410" width="50" height="20" as="geometry" />
+          <mxGeometry x="400" y="1370" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-26" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="510" y="1310" width="228.33333333333337" height="220.00333333333333" as="geometry" />
+          <mxGeometry x="490" y="1320" width="228.33333333333337" height="220.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-12" value="" style="group" vertex="1" connectable="0" parent="PFpXIr5WL7vh2AT7sFhG-26">
           <mxGeometry x="81.67000000000007" width="70" height="63.33333333333334" as="geometry" />
@@ -407,10 +407,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-27" value="&lt;div&gt;子情况3b：与右兄弟合并&lt;/div&gt;&lt;div&gt;1、将父节点分隔关键字下移到当前节点&lt;/div&gt;&lt;div&gt;2、将右兄弟内容合并到当前节点&lt;/div&gt;&lt;div&gt;3、删除右兄弟&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="125.83" y="1960" width="220" height="60" as="geometry" />
+          <mxGeometry x="114.17" y="1920" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-41" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="110" y="1740" width="228.33333333333343" height="200.00333333333333" as="geometry" />
+          <mxGeometry x="117.5" y="1710" width="228.33333333333343" height="200.00333333333333" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-29" value="" style="group" vertex="1" connectable="0" parent="PFpXIr5WL7vh2AT7sFhG-41">
           <mxGeometry x="81.67000000000003" width="70" height="63.33333333333334" as="geometry" />
@@ -458,13 +458,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1820" width="110" height="20" as="geometry" />
+          <mxGeometry x="374.81" y="1790" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-56" value="&lt;b&gt;删除15&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1800" width="50" height="20" as="geometry" />
+          <mxGeometry x="404.81" y="1770" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-57" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="500" y="1750" width="203.33333333333337" height="200" as="geometry" />
+          <mxGeometry x="490" y="1710" width="203.33333333333337" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PFpXIr5WL7vh2AT7sFhG-43" value="" style="group" vertex="1" connectable="0" parent="PFpXIr5WL7vh2AT7sFhG-57">
           <mxGeometry x="70" width="70" height="63.33333333333334" as="geometry" />
