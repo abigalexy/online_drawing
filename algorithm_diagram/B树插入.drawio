@@ -266,7 +266,7 @@
           <mxGeometry x="294.81571428571425" y="276" width="64.81818181818181" height="64.81818181818181" as="geometry" />
         </mxCell>
         <mxCell id="uNtIZfJUE3P_ky5JRSXj-28" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="30" y="1480" width="359.633896103896" height="340.81818181818176" as="geometry" />
+          <mxGeometry x="40" y="1610" width="359.633896103896" height="340.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="uNtIZfJUE3P_ky5JRSXj-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.239;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.684;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uNtIZfJUE3P_ky5JRSXj-28" source="uNtIZfJUE3P_ky5JRSXj-36" target="uNtIZfJUE3P_ky5JRSXj-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -332,10 +332,10 @@
           <mxGeometry x="590" y="1450" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uNtIZfJUE3P_ky5JRSXj-44" value="&lt;div&gt;[4,5,6]节点已满，需分裂：&lt;/div&gt;&lt;div&gt;1、找到中间键5&lt;/div&gt;&lt;div&gt;2、将5提升到父节点[8]&lt;/div&gt;&lt;div&gt;3、4和6分别成为左右子节点&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="523.71" y="1840" width="165.54" height="60" as="geometry" />
+          <mxGeometry x="558.9200000000001" y="1980" width="165.54" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uNtIZfJUE3P_ky5JRSXj-61" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="404.4599999999999" y="1470" width="405.54389610389615" height="348.81818181818176" as="geometry" />
+          <mxGeometry x="412.99999999999994" y="1600" width="405.54389610389615" height="348.81818181818176" as="geometry" />
         </mxCell>
         <mxCell id="uNtIZfJUE3P_ky5JRSXj-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.239;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.684;exitY=0.034;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="uNtIZfJUE3P_ky5JRSXj-61" source="uNtIZfJUE3P_ky5JRSXj-53" target="uNtIZfJUE3P_ky5JRSXj-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
