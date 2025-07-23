@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="CfYoRQMPmK59GB7jdFsn">
-    <mxGraphModel dx="1121" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,6 +121,51 @@
         </mxCell>
         <mxCell id="EdYVw8JxPQ8l5NFYAC7c-26" value="PONG (确认状态)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-29">
           <mxGeometry x="11" y="40" width="105" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-39" value="&lt;b&gt;故障转移&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="790" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-43" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="135" y="820" width="560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-31" value="Master Node A&lt;br&gt;(Slots 0-5460)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;shadow=1;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="10" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-32" value="Replica Node B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="214" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-33" value="Replica Node C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="415" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-34" value="Node A 崩溃（PFail/Fail）" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry y="70" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-36" value="Node B 发起选举" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="228.5" y="70" width="101" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-37" value="获得多数投票（Node C）&lt;br&gt;&lt;div&gt;成为新 Master&lt;/div&gt;&lt;div&gt;接管 Slots 0-5460&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="420" y="70" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-38" value="Master Node C&lt;br&gt;(Slots 0-5460)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;shadow=1;" vertex="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry x="415" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-40" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="79.79999999999995" as="sourcePoint" />
+            <mxPoint x="215" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-41" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="79.79999999999995" as="sourcePoint" />
+            <mxPoint x="409" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdYVw8JxPQ8l5NFYAC7c-42" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="EdYVw8JxPQ8l5NFYAC7c-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479.79999999999995" y="120" as="sourcePoint" />
+            <mxPoint x="479.79999999999995" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
