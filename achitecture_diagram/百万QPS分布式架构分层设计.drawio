@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="P3gRC8_A3UrOJRgZvE9z">
-    <mxGraphModel dx="1317" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,20 +52,17 @@
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-15" value="&lt;b&gt;数据层 (Data Layer)&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
           <mxGeometry x="20" y="10" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="5bmjGJW-6Xc3s-OgvxNP-30" value="本地缓存" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.cone;fillColor=#FFFFCC;shadow=1;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
-          <mxGeometry x="20" y="35" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-9" value="Redis集群" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFF99;shadow=1;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
-          <mxGeometry x="180" y="45" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="45" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-11" value="MySQL&lt;br&gt;分库分表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFF66;shadow=1;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
-          <mxGeometry x="370" y="35" width="60" height="80" as="geometry" />
+          <mxGeometry x="256" y="35" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-12" value="搜索引擎-ES集群" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#FFFF99;shadow=1;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
-          <mxGeometry x="510" y="45" width="100" height="60" as="geometry" />
+          <mxGeometry x="446" y="45" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-13" value="分布式&lt;br&gt;文件存储" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#FFFFCC;shadow=1;" parent="5bmjGJW-6Xc3s-OgvxNP-77" vertex="1">
-          <mxGeometry x="680" y="35" width="60" height="80" as="geometry" />
+          <mxGeometry x="656" y="35" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5bmjGJW-6Xc3s-OgvxNP-78" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="24" y="980" width="780" height="130" as="geometry" />
@@ -140,13 +137,16 @@
           <mxGeometry x="680" y="217.5" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="UVUFMQYEo8M_Fd0JZdPp-6" value="微服务集群" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#99FFFF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="464" y="420" width="100" height="60" as="geometry" />
+          <mxGeometry x="364" y="420" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UVUFMQYEo8M_Fd0JZdPp-7" value="异步任务队列" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fillColor=#66FFFF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="430" width="95" height="40" as="geometry" />
+          <mxGeometry x="670" y="430" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UVUFMQYEo8M_Fd0JZdPp-9" value="分布式Session" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fillColor=#99FFFF;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="413.75" width="130" height="72.5" as="geometry" />
+          <mxGeometry x="194" y="413.75" width="130" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UVUFMQYEo8M_Fd0JZdPp-15" value="本地缓存" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.cone;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="405" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
