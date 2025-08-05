@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="第 1 页" id="pMctmSi5Pf7Hwh6c0KyB">
+    <mxGraphModel dx="1210" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0oCn_plIodp3q3iqxllZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oCn_plIodp3q3iqxllZ-1" target="0oCn_plIodp3q3iqxllZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-1" value="" style="shape=actor;whiteSpace=wrap;html=1;shadow=1;fillColor=#F9FFE2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0oCn_plIodp3q3iqxllZ-2" target="0oCn_plIodp3q3iqxllZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-2" value="Web服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-3" value="线程池" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;fillColor=#CCFFE6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="297.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-4" value="Kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-5" value="异步服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-6" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#F9FFE2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-8" value="请求" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-9" value="立即响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="350" as="sourcePoint" />
+            <mxPoint x="90" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-11" value="提交任务" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0oCn_plIodp3q3iqxllZ-3" target="0oCn_plIodp3q3iqxllZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-13" value="发送消息" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0oCn_plIodp3q3iqxllZ-5" target="0oCn_plIodp3q3iqxllZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-17" value="持久化" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oCn_plIodp3q3iqxllZ-18" value="消费处理" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="720" y="329.52" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
