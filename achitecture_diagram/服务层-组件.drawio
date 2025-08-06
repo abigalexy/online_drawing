@@ -118,7 +118,7 @@
           <mxGeometry width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7lq2H1ewKCDTEENbeoHA-22" value="&lt;b&gt;故障熔断与降级&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="820" width="89" height="20" as="geometry" />
+          <mxGeometry x="109" y="820" width="89" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7lq2H1ewKCDTEENbeoHA-23" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="109" y="850" width="420" height="260" as="geometry" />
