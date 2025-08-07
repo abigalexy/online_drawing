@@ -1,39 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="UgM8FfxsNI3zfSPlbwk3">
-    <mxGraphModel dx="1878" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1667" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="45" y="980" width="720" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-16" source="G7YPm5RvyC9O0uatV-jY-2" target="G7YPm5RvyC9O0uatV-jY-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-2" value="智能DNS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#CCFFFF;shadow=1;direction=west;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-16">
-          <mxGeometry y="10" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-4" value="Anycast IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-16">
-          <mxGeometry x="160" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-6" value="DDoS防护" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCFF;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-16">
-          <mxGeometry x="460" y="5" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-7" value="SDN网络" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-16">
-          <mxGeometry x="600" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-16" source="G7YPm5RvyC9O0uatV-jY-8" target="G7YPm5RvyC9O0uatV-jY-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-8" value="多机房&lt;br&gt;BGP路由" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#E6E6E6;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-16">
-          <mxGeometry x="300" width="110" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-16" source="G7YPm5RvyC9O0uatV-jY-4" target="G7YPm5RvyC9O0uatV-jY-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="G7YPm5RvyC9O0uatV-jY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.063;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-16" source="G7YPm5RvyC9O0uatV-jY-6" target="G7YPm5RvyC9O0uatV-jY-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="dd9rRILLbQaEppfjLX-1-6" value="七层负载均衡Nginx" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;shadow=1;fillColor=#CCCCFF;" parent="1" vertex="1">
           <mxGeometry x="355" y="540" width="100" height="60" as="geometry" />
         </mxCell>
@@ -87,6 +57,33 @@
         </mxCell>
         <mxCell id="G7YPm5RvyC9O0uatV-jY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.509;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dd9rRILLbQaEppfjLX-1-6" target="dd9rRILLbQaEppfjLX-1-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="930" width="660" height="127.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-39" source="G7YPm5RvyC9O0uatV-jY-2" target="G7YPm5RvyC9O0uatV-jY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-2" value="Anycast DNS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#CCFFFF;shadow=1;direction=west;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-39">
+          <mxGeometry y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-6" value="DDoS防护" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCCFF;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-39">
+          <mxGeometry x="550" y="45" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-39" source="G7YPm5RvyC9O0uatV-jY-8" target="G7YPm5RvyC9O0uatV-jY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-8" value="CDN&lt;br&gt;边缘节点" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#E6E6E6;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-39">
+          <mxGeometry x="174" y="40" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="G7YPm5RvyC9O0uatV-jY-39" source="G7YPm5RvyC9O0uatV-jY-34" target="G7YPm5RvyC9O0uatV-jY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-34" value="智能路由&lt;br&gt;就近接入" style="rhombus;whiteSpace=wrap;html=1;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-39">
+          <mxGeometry x="365" y="32.5" width="100" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="G7YPm5RvyC9O0uatV-jY-38" value="&lt;b&gt;流量入口&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="G7YPm5RvyC9O0uatV-jY-39">
+          <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
