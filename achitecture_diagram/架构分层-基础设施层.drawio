@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="第 1 页" id="HC6xe1eyjTH8i2K5GPC8">
+    <mxGraphModel dx="1295" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R3otk7VFdhm3802mE3yg-30" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="140" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-1" target="R3otk7VFdhm3802mE3yg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-1" value="网络" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-2" target="R3otk7VFdhm3802mE3yg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-2" value="负载均衡" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="230" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-3" target="R3otk7VFdhm3802mE3yg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-3" value="计算资源" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_snip_rect;dx=6;whiteSpace=wrap;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-4" target="R3otk7VFdhm3802mE3yg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-4" value="存储" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="481.25" width="70" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-5" value="监控与运维" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-6" value="CDN" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#E6E6E6;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="115" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-7" value="API &lt;br&gt;Gateway" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;direction=east;shadow=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="227.5" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-8" value="K8s集群" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-9" value="缓存&lt;br&gt;数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="480" width="70" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-1" target="R3otk7VFdhm3802mE3yg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-11" value="BGP/Anycast" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="341.75" y="130" width="81" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-13" value="动态路由" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="230" width="57.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-15" value="容器化" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359.75" y="360" width="39.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-4" target="R3otk7VFdhm3802mE3yg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-17" value="分布式" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="500" width="38.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-19" value="Prometheus&lt;br&gt;ELK" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-5" target="R3otk7VFdhm3802mE3yg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-21" value="实时告警" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359.75" y="640" width="58.25" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R3otk7VFdhm3802mE3yg-2" target="R3otk7VFdhm3802mE3yg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3otk7VFdhm3802mE3yg-31" value="基础设施层" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="90" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
