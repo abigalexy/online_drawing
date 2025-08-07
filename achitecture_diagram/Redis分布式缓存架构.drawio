@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="ju_VNKDs2XEqtu8UT7Nd">
-    <mxGraphModel dx="1210" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1001" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,39 +163,6 @@
         </mxCell>
         <mxCell id="SutA2bySumvuOBI0gKyh-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="SutA2bySumvuOBI0gKyh-66" source="SutA2bySumvuOBI0gKyh-69" target="SutA2bySumvuOBI0gKyh-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-13" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="65" y="1830" width="699.13" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="NqtBwNRpQWelGXE45hyR-13" source="NqtBwNRpQWelGXE45hyR-2" target="NqtBwNRpQWelGXE45hyR-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-2" value="更新DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E6FFCC;shadow=1;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry x="162.63" y="30" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-3" value="写请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;shadow=1;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry y="45" width="96.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="NqtBwNRpQWelGXE45hyR-13" source="NqtBwNRpQWelGXE45hyR-5" target="NqtBwNRpQWelGXE45hyR-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-5" value="删除缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;shadow=1;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry x="282.63" y="45" width="96.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-6" value="延迟双删" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;shadow=1;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry x="432.63" y="45" width="96.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-7" value="消息队列&lt;br&gt;重试" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#FFFFCC;shadow=1;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry x="592.63" y="40" width="106.5" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="NqtBwNRpQWelGXE45hyR-13" source="NqtBwNRpQWelGXE45hyR-3" target="NqtBwNRpQWelGXE45hyR-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="NqtBwNRpQWelGXE45hyR-13" source="NqtBwNRpQWelGXE45hyR-6" target="NqtBwNRpQWelGXE45hyR-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NqtBwNRpQWelGXE45hyR-12" value="&lt;b&gt;常规缓存与DB一致性&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="NqtBwNRpQWelGXE45hyR-13" vertex="1">
-          <mxGeometry width="118" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NqtBwNRpQWelGXE45hyR-19" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="93.56" y="1520" width="640.38" height="205" as="geometry" />
@@ -563,6 +530,39 @@
         </mxCell>
         <mxCell id="zJJeHQznxyi1ayCvBh4n-23" value="&lt;div&gt;作用：确保在写操作完成前，阻塞其他读/写请求，避免并发冲突。&lt;/div&gt;&lt;div&gt;代价：性能下降，需权衡一致性级别。&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zJJeHQznxyi1ayCvBh4n-24">
           <mxGeometry y="130" width="360.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="zJJeHQznxyi1ayCvBh4n-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="65" y="1830" width="699.13" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zJJeHQznxyi1ayCvBh4n-25" source="NqtBwNRpQWelGXE45hyR-2" target="NqtBwNRpQWelGXE45hyR-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-2" value="更新DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E6FFCC;shadow=1;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry x="162.63" y="30" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-3" value="写请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;shadow=1;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry y="45" width="96.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zJJeHQznxyi1ayCvBh4n-25" source="NqtBwNRpQWelGXE45hyR-5" target="NqtBwNRpQWelGXE45hyR-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-5" value="删除缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;shadow=1;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry x="282.63" y="45" width="96.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-6" value="延迟双删" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;shadow=1;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry x="432.63" y="45" width="96.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-7" value="消息队列&lt;br&gt;异步重试" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#FFFFCC;shadow=1;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry x="592.63" y="40" width="106.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="zJJeHQznxyi1ayCvBh4n-25" source="NqtBwNRpQWelGXE45hyR-3" target="NqtBwNRpQWelGXE45hyR-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="zJJeHQznxyi1ayCvBh4n-25" source="NqtBwNRpQWelGXE45hyR-6" target="NqtBwNRpQWelGXE45hyR-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqtBwNRpQWelGXE45hyR-12" value="&lt;b&gt;缓存与DB一致性&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zJJeHQznxyi1ayCvBh4n-25" vertex="1">
+          <mxGeometry width="95" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
