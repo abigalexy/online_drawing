@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="HC6xe1eyjTH8i2K5GPC8">
-    <mxGraphModel dx="1098" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1317" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,13 +142,13 @@
         <mxCell id="-EPuHIIHdklLFLeaJbZA-134" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="43" y="1020" width="443" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="-EPuHIIHdklLFLeaJbZA-77" value="JMeter" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-77" value="JMeter" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
           <mxGeometry y="2.5" width="83" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-EPuHIIHdklLFLeaJbZA-79" value="全链路压测" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-79" value="全链路压测" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fillColor=#FFFF99;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
           <mxGeometry x="163" y="9.5" width="100" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="-EPuHIIHdklLFLeaJbZA-80" value="影子库" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-80" value="影子库" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-134">
           <mxGeometry x="343" width="100" height="65" as="geometry" />
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-134" source="-EPuHIIHdklLFLeaJbZA-77" target="-EPuHIIHdklLFLeaJbZA-79">
