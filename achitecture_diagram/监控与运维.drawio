@@ -200,6 +200,42 @@
         <mxCell id="hVSB03RB_JKEITZuJXn4-38" value="&lt;b&gt;微服务/中间件监控&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-39">
           <mxGeometry width="110" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="1420" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hVSB03RB_JKEITZuJXn4-53" source="hVSB03RB_JKEITZuJXn4-40" target="hVSB03RB_JKEITZuJXn4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-40" value="Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="149" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-41" value="Redis Cluster" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#CCFFE6;shadow=1;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry y="165" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-42" value="MySQL&lt;br&gt;主从" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="174" y="150" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-43" value="Elasticsearch" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFE6CC;shadow=1;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="320" y="160" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=45;entryDy=0;entryPerimeter=0;" edge="1" parent="hVSB03RB_JKEITZuJXn4-53" source="hVSB03RB_JKEITZuJXn4-40" target="hVSB03RB_JKEITZuJXn4-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="hVSB03RB_JKEITZuJXn4-53" source="hVSB03RB_JKEITZuJXn4-40" target="hVSB03RB_JKEITZuJXn4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-49" value="缓存命中率" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="60" y="40" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-50" value="慢查询" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="210" y="110" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-51" value="索引延迟" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry x="300" y="40" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hVSB03RB_JKEITZuJXn4-52" value="&lt;b&gt;存储/缓存监控&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hVSB03RB_JKEITZuJXn4-53">
+          <mxGeometry width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
