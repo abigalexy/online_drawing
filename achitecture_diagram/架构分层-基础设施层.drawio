@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="HC6xe1eyjTH8i2K5GPC8">
-    <mxGraphModel dx="1073" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1295" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-EPuHIIHdklLFLeaJbZA-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" y="90" width="340" height="630" as="geometry" />
+          <mxGeometry x="180" y="70" width="340" height="630" as="geometry" />
         </mxCell>
         <mxCell id="R3otk7VFdhm3802mE3yg-30" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=#F7FFFC;" parent="-EPuHIIHdklLFLeaJbZA-1" vertex="1">
           <mxGeometry width="140" height="630" as="geometry" />
@@ -88,7 +88,7 @@
           <mxGeometry x="35" y="10" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="130" y="1070" width="540" height="110" as="geometry" />
+          <mxGeometry x="70" y="1240" width="540" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-11" value="&lt;b&gt;水平扩展&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-13">
           <mxGeometry width="60" height="25" as="geometry" />
@@ -118,7 +118,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="50" y="830" width="740" height="110" as="geometry" />
+          <mxGeometry x="44" y="780" width="740" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-23" value="Anycast IP" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-31">
           <mxGeometry x="160" y="30" width="80" height="80" as="geometry" />
@@ -149,6 +149,39 @@
         </mxCell>
         <mxCell id="-EPuHIIHdklLFLeaJbZA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-31" source="-EPuHIIHdklLFLeaJbZA-17" target="-EPuHIIHdklLFLeaJbZA-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="980" width="680" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-33" value="K8s集群" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;fillColor=#CCFFFF;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry x="150" y="42.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-55" source="-EPuHIIHdklLFLeaJbZA-34" target="-EPuHIIHdklLFLeaJbZA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-34" value="自动扩缩容HPA" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=25;fillColor=#CCFFE6;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry x="300" y="37.5" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-35" value="资源隔离" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCE5FF;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry x="420" y="37.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-36" value="Serverless&lt;br&gt;备用" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#E6E6E6;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry x="570" y="35" width="110" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-55" source="-EPuHIIHdklLFLeaJbZA-42" target="-EPuHIIHdklLFLeaJbZA-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-42" value="容器化" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry y="45" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-55" source="-EPuHIIHdklLFLeaJbZA-33" target="-EPuHIIHdklLFLeaJbZA-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-EPuHIIHdklLFLeaJbZA-55" source="-EPuHIIHdklLFLeaJbZA-35" target="-EPuHIIHdklLFLeaJbZA-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-EPuHIIHdklLFLeaJbZA-52" value="&lt;b&gt;计算资源&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-EPuHIIHdklLFLeaJbZA-55">
+          <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
