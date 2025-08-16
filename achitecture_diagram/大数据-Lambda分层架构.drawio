@@ -160,7 +160,7 @@
           <mxGeometry width="123" height="20" as="geometry" />
         </mxCell>
         <mxCell id="vbh9-TAx73HxG_0SsgGQ-72" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="100" y="80" width="616" height="650" as="geometry" />
+          <mxGeometry x="100" y="90" width="616" height="650" as="geometry" />
         </mxCell>
         <mxCell id="BVc5Ka0B3RSAzYxD8DZn-48" value="&lt;div&gt;实时流：用户行为 → Kafka → Flink → Redis&lt;/div&gt;&lt;div&gt;批量流：用户行为 → Hive → Spark → MySQL&lt;/div&gt;&lt;div&gt;批流一体：统一写入数据湖（Delta Lake/Iceberg）&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vbh9-TAx73HxG_0SsgGQ-72" vertex="1">
           <mxGeometry x="336" y="480" width="280" height="45" as="geometry" />
