@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.1.0">
+  <diagram name="第 1 页" id="f9bVbTq_wDGh4RdCy2TS">
+    <mxGraphModel dx="1098" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;计算资源池&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;K8s Node Pool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Serverless&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;弹性容器实例&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200.01" y="170" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-3" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;存储资源池&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;对象存储(S3)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;分布式文件系统&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;云数据库&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="170" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-5" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;网络资源池&lt;br&gt;VPC/Subnet&lt;br&gt;LB/Ingress&lt;br&gt;Service Mesh&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470.01" y="170" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-14" value="云原生基础设施层 (IaaS)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="300" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dKKs_kJMHXaQM2gFfRkW-15" target="dKKs_kJMHXaQM2gFfRkW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-22" value="容器编排层" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395.01" y="480" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dKKs_kJMHXaQM2gFfRkW-23" target="dKKs_kJMHXaQM2gFfRkW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-30" value="数据处理层" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="670" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-32" value="云服务提供商 (AWS/Azure/GCP)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="140" width="185" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dKKs_kJMHXaQM2gFfRkW-7" target="dKKs_kJMHXaQM2gFfRkW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-23" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50.01" y="710" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;数据目录&lt;br&gt;Data Catalog&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.01" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-25" value="&lt;div style=&quot;text-align: left;&quot;&gt;数据流水线&lt;br&gt;Data Pipeline&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195.01" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-26" value="&lt;div style=&quot;text-align: left;&quot;&gt;监控告警&lt;br&gt;Prometheus&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330.01" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;权限管理&lt;br&gt;IAM/RBAC&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465.01" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;数据可视化&lt;br&gt;Grafana/Superset&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600.01" y="750" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-36" value="数据服务层 (SaaS)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="332.51" y="720" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="525" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-16" value="&lt;div style=&quot;text-align: left;&quot;&gt;批处理引擎&lt;br&gt;Spark on K8s&lt;br&gt;Airflow&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60.01" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;流处理引擎&lt;br&gt;Flink Operator&lt;br&gt;Kafka Streams&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195.01" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;交互式查询&lt;br&gt;Presto/Trino&lt;br&gt;Hive on K8s&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.51" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;实时数据分析&lt;br&gt;Druid&lt;br&gt;ClickHouse&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465.01" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;机器学习平台&lt;br&gt;Kubeflow&lt;br&gt;TensorFlow&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600.01" y="565" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-35" value="大数据处理层 (PaaS)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="328.14" y="535" width="123.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180.01" y="340" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;调度引擎&lt;br&gt;K8s Scheduler&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195.01" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;服务发现&lt;br&gt;CoreDNS&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.51" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;自动扩缩容&lt;br&gt;HPA/VPA&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462.51" y="380" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKKs_kJMHXaQM2gFfRkW-34" value="云原生编排层 (Kubernetes 控制平面)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="286.26" y="350" width="202.5" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
