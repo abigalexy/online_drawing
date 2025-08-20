@@ -112,7 +112,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u4s9_uMdVbDqwt5h1SyU-82" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="110" y="1250" width="847.5" height="550" as="geometry" />
+          <mxGeometry x="110" y="1260" width="847.5" height="550" as="geometry" />
         </mxCell>
         <mxCell id="u4s9_uMdVbDqwt5h1SyU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u4s9_uMdVbDqwt5h1SyU-82" source="u4s9_uMdVbDqwt5h1SyU-4" target="u4s9_uMdVbDqwt5h1SyU-21">
           <mxGeometry relative="1" as="geometry" />
@@ -246,7 +246,7 @@
           <mxGeometry x="607.5" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u4s9_uMdVbDqwt5h1SyU-121" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="110" y="590" width="847.5" height="550" as="geometry" />
+          <mxGeometry x="110" y="550" width="847.5" height="550" as="geometry" />
         </mxCell>
         <mxCell id="u4s9_uMdVbDqwt5h1SyU-17" value="&lt;b&gt;场景一：使用@LoadBalanced RestTemplate&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="u4s9_uMdVbDqwt5h1SyU-121">
           <mxGeometry width="255" height="23" as="geometry" />
