@@ -7,28 +7,28 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-75" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-690" y="130" width="1220" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEFFFE;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EEFFFE;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="680" y="100" width="360" height="460" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-42" target="AN1FsqrcMt11nKGcJI2h-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5FFF2;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E5FFF2;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="250" y="100" width="350" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FFF1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-39" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8FFF1;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry y="441.25" width="170" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-1" target="AN1FsqrcMt11nKGcJI2h-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-1" value="ConfigClient&lt;br&gt;应用启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-1" value="ConfigClient&lt;br&gt;应用启动" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-2" target="AN1FsqrcMt11nKGcJI2h-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-2" value="初始化BootstrapContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-2" value="初始化BootstrapContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="720" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-5" value="配置客户端ConfigClient" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-6" target="AN1FsqrcMt11nKGcJI2h-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-6" value="加载bootstrap.properties&lt;br&gt;获取config.uri, appname等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-6" value="加载bootstrap.properties&lt;br&gt;获取config.uri, appname等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="705" y="240" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-8" target="AN1FsqrcMt11nKGcJI2h-11" edge="1">
@@ -46,7 +46,7 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-8" target="AN1FsqrcMt11nKGcJI2h-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-8" value="向ConfigServer&lt;br&gt;发起远程HTTP请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-8" value="向ConfigServer&lt;br&gt;发起远程HTTP请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="720" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-10" value="根据配置&lt;br&gt;组装请求" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
@@ -55,34 +55,34 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-11" target="AN1FsqrcMt11nKGcJI2h-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-11" value="接收JSON响应" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-11" value="接收JSON响应" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="720" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-13" target="AN1FsqrcMt11nKGcJI2h-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-13" value="将配置绑定到Environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-13" value="将配置绑定到Environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="900" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-15" target="AN1FsqrcMt11nKGcJI2h-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-15" value="关闭&lt;br&gt;BootstrapContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-15" value="关闭&lt;br&gt;BootstrapContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="900" y="365" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-17" target="AN1FsqrcMt11nKGcJI2h-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-17" value="创建并启动主ApplicationContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-17" value="创建并启动主ApplicationContext" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="900" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-19" value="应用正常运行&lt;br&gt;使用远程配置注入Bean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-19" value="应用正常运行&lt;br&gt;使用远程配置注入Bean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFFF;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="900" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-21" target="AN1FsqrcMt11nKGcJI2h-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-21" value="GET&lt;br&gt;&amp;nbsp;/app-name/profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-21" value="GET&lt;br&gt;&amp;nbsp;/app-name/profile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="280" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-23" value="配置服务端ConfigServer" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
@@ -91,13 +91,13 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-24" target="AN1FsqrcMt11nKGcJI2h-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-24" value="认证与授权&lt;br&gt;（可选）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-24" value="认证与授权&lt;br&gt;（可选）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="280" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-25" target="AN1FsqrcMt11nKGcJI2h-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-25" value="根据&lt;br&gt;appname, profile, label&lt;br&gt;组装定位资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFB3;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-25" value="根据&lt;br&gt;appname, profile, label&lt;br&gt;组装定位资源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFB3;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="270" y="365" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-26" target="AN1FsqrcMt11nKGcJI2h-30" edge="1">
@@ -106,28 +106,28 @@
         <mxCell id="AN1FsqrcMt11nKGcJI2h-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-26" target="AN1FsqrcMt11nKGcJI2h-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-26" value="从远程仓库拉取&lt;br&gt;对应配置文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-26" value="从远程仓库拉取&lt;br&gt;对应配置文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="280" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AN1FsqrcMt11nKGcJI2h-75" source="AN1FsqrcMt11nKGcJI2h-30" target="AN1FsqrcMt11nKGcJI2h-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-30" value="解析配置内容&lt;br&gt;（聚合、属性覆盖等）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-30" value="解析配置内容&lt;br&gt;（聚合、属性覆盖等）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="445" y="470" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-32" value="JSON格式&lt;br&gt;封装配置信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-32" value="JSON格式&lt;br&gt;封装配置信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="450" y="365" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-36" value="Git/SVN/&lt;br&gt;本地文件等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-36" value="Git/SVN/&lt;br&gt;本地文件等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="25" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-40" value="远程仓库RemoteRepository" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="10" y="450" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-47" value="健康检查:&lt;br&gt;检查与远程仓库&lt;br&gt;连接状态" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#FFFFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-47" value="健康检查:&lt;br&gt;检查与远程仓库&lt;br&gt;连接状态" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#FFFFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="70" y="285" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AN1FsqrcMt11nKGcJI2h-51" value="远程获取失败&lt;br&gt;则回退到本地配置" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#FFFFCC;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
+        <mxCell id="AN1FsqrcMt11nKGcJI2h-51" value="远程获取失败&lt;br&gt;则回退到本地配置" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_rect;fillColor=#FFFFCC;shadow=1;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
           <mxGeometry x="1100" y="290" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AN1FsqrcMt11nKGcJI2h-59" value="&lt;b&gt;SpringCloudConfig 角色与组件交互&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="AN1FsqrcMt11nKGcJI2h-75" vertex="1">
