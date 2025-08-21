@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="BpDlptufMD8FAYlL6RnX">
-    <mxGraphModel dx="1500" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1810" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
           <mxGeometry width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b5UIua2XtRcnpAt2BZCp-53" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="1320" width="470" height="105" as="geometry" />
+          <mxGeometry x="100" y="1330" width="470" height="105" as="geometry" />
         </mxCell>
         <mxCell id="b5UIua2XtRcnpAt2BZCp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="b5UIua2XtRcnpAt2BZCp-53" source="b5UIua2XtRcnpAt2BZCp-45" target="b5UIua2XtRcnpAt2BZCp-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -125,7 +125,7 @@
           <mxGeometry width="88" height="20" as="geometry" />
         </mxCell>
         <mxCell id="b5UIua2XtRcnpAt2BZCp-72" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="132" y="760" width="250" height="470" as="geometry" />
+          <mxGeometry x="132" y="770" width="250" height="470" as="geometry" />
         </mxCell>
         <mxCell id="b5UIua2XtRcnpAt2BZCp-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="b5UIua2XtRcnpAt2BZCp-72" source="b5UIua2XtRcnpAt2BZCp-54" target="b5UIua2XtRcnpAt2BZCp-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -165,6 +165,54 @@
         </mxCell>
         <mxCell id="b5UIua2XtRcnpAt2BZCp-69" value="&lt;b&gt;类关系图&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="b5UIua2XtRcnpAt2BZCp-72" vertex="1">
           <mxGeometry width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="1540" width="454" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dsXuGhHgb8r0862xayT5-17" source="dsXuGhHgb8r0862xayT5-1" target="dsXuGhHgb8r0862xayT5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-1" value="Global Pre Filter 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="10" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dsXuGhHgb8r0862xayT5-17" source="dsXuGhHgb8r0862xayT5-2" target="dsXuGhHgb8r0862xayT5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-2" value="Route Pre Filter 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="170" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dsXuGhHgb8r0862xayT5-17" source="dsXuGhHgb8r0862xayT5-3" target="dsXuGhHgb8r0862xayT5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-3" value="Proxy Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FF66;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="333.5" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dsXuGhHgb8r0862xayT5-17" source="dsXuGhHgb8r0862xayT5-6" target="dsXuGhHgb8r0862xayT5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-6" value="Proxy Response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="10" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dsXuGhHgb8r0862xayT5-17" source="dsXuGhHgb8r0862xayT5-7" target="dsXuGhHgb8r0862xayT5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-7" value="Route Post Filter 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="170" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-8" value="Global Post Filter 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF66;shadow=1;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="334" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-12" value="请求处理流程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="7.5" y="30" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-13" value="响应处理流程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="8.75" y="140" width="77.5" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-14" value="&lt;div&gt;Pre Filters是正向执行的：`Global Pre`-&amp;gt;`Route Pre`&lt;/div&gt;&lt;div&gt;Post Filters是反向执行的：`Route Post`-&amp;gt;`Global Post`&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry x="8.75" y="245" width="301.25" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXuGhHgb8r0862xayT5-15" value="&lt;b&gt;过滤器链FilterChain&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dsXuGhHgb8r0862xayT5-17">
+          <mxGeometry width="122.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
