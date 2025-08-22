@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="WlIzskmG9pI8DjSCx0WZ">
-    <mxGraphModel dx="1098" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1317" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,22 +172,22 @@
             <mxPoint x="274" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-1" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
+        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-1" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#FFCCCC;shadow=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry x="25" y="80" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lUMcOgB7CT1MJs2Ok-OM-3" value="Consumer Code" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry y="140" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-4" value="LoadBalancer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
+        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-4" value="LoadBalancer" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFCC;shadow=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry x="540" y="75" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="lUMcOgB7CT1MJs2Ok-OM-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lUMcOgB7CT1MJs2Ok-OM-53" source="lUMcOgB7CT1MJs2Ok-OM-5" target="lUMcOgB7CT1MJs2Ok-OM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-5" value="HttpClient" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
+        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-5" value="HttpClient" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;shadow=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry x="274" y="260" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-6" value="Provider&lt;br&gt;Service-A" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
+        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-6" value="Provider&lt;br&gt;Service-A" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCFFCC;shadow=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry x="530" y="250" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lUMcOgB7CT1MJs2Ok-OM-9" value="1、myFeignClient.getUserById(1)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
@@ -213,7 +213,7 @@
             <mxPoint x="340" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-11" value="Feign Proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
+        <mxCell id="lUMcOgB7CT1MJs2Ok-OM-11" value="Feign Proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;shadow=1;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
           <mxGeometry x="274" y="80" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lUMcOgB7CT1MJs2Ok-OM-13" value="2、解析方法参数、注解&lt;br&gt;构建Request" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lUMcOgB7CT1MJs2Ok-OM-53">
